@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background-image: url(/src/images/8c98994518b575bfd8c949e91d20548b.jpg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.edit{
+  background-color:white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  font-size: large;
+}
+
+.update{
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  font-size: large;
+
+}
+.pin{
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  font-size: large;
+
+}
+
+.container{
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.note-list{
+  display: grid;
+  grid-gap:2rem;
+  grid-template-columns: repeat(auto-fit,minmax(250px,3fr));
+  padding: 10px;
+}
+
+.note.new{
+  background-color: #a6b631;
+
+}
+textarea{
+  border: none;
+  resize: none;
+  background-color:rgb(148, 196, 51);
+width: 100%;
+}
+textarea:focus{
+  outline: none;
+}
+
+.save{
+  background-color: gray;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  font-size: large;
+}
+
+.note{
+  background-color: rgb(148, 196, 51);
+  border-radius: 15px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom:0.1em;
+  border: 1px solid grey;
+  height: 40px;
+}
+
+.search input{
+  border:none;
+  background-color:rgb(233, 233, 233) ;
+
+}
+
+.search input:focus{
+  outline:none;
+}
+
+.popup{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Fira sans','sans-serif' ;
+  font-size: 20px;
+}
+main{
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: auto;
+}
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 20px;
+
+}
